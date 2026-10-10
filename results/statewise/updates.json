@@ -1,0 +1,144 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T09:07:22Z"
+  },
+  "case": {
+    "actuators": 105,
+    "augmented_coordinates": 330,
+    "bodies": 210,
+    "chords": 55,
+    "closure_rows": 330,
+    "frames": 305,
+    "independent_speeds": 60,
+    "internal_loops": 40,
+    "largest_module": 6,
+    "level1_speeds": [
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "level2_chords": 15,
+    "mass_kg": 312.02663268,
+    "members": 5,
+    "name": "circle/both",
+    "record_bodies": 210,
+    "record_joints": 245,
+    "tree_speeds": 235
+  },
+  "closing_transition": {
+    "bodies_gaining_energy": {
+      "max": 120.0,
+      "median": 97.0,
+      "min": 87.0,
+      "n": 6
+    },
+    "energy": {
+      "max": 8.528237368525702e-12,
+      "median": 8.960069892528826e-14,
+      "min": 1.8661825631538327e-14,
+      "n": 6
+    },
+    "loss_J": {
+      "max": 1.0946465826247556,
+      "median": 0.701665865400567,
+      "min": 0.46635749926217146,
+      "n": 6
+    },
+    "opened_link": "hand_0_4",
+    "velocity": {
+      "max": 2.0070975989362425e-12,
+      "median": 1.442214546511334e-13,
+      "min": 7.785274467672907e-15,
+      "n": 6
+    }
+  },
+  "constraint_wrenches": {
+    "link_force_N": {
+      "max": 7.112532784958603e-12,
+      "median": 6.896705428971472e-13,
+      "min": 3.552713678800501e-14,
+      "n": 6
+    },
+    "support_force_N": {
+      "max": 3.348077370901592e-11,
+      "median": 4.277467269275803e-12,
+      "min": 6.252776074688882e-13,
+      "n": 6
+    },
+    "support_moment_Nm": {
+      "max": 8.15436607126685e-12,
+      "median": 9.50350909079134e-13,
+      "min": 1.056932319443149e-13,
+      "n": 6
+    }
+  },
+  "inertial_edit": {
+    "body": "d2/r_forearm",
+    "coriolis": {
+      "max": 1.0059750499607541e-16,
+      "median": 4.575767541891285e-17,
+      "min": 2.1982403405566073e-17,
+      "n": 6
+    },
+    "full_evaluation_s": {
+      "max": 0.005352115999812668,
+      "median": 0.004705733999799122,
+      "min": 0.004231227999298426,
+      "n": 6
+    },
+    "gamma": {
+      "max": 3.320537174818466e-16,
+      "median": 1.9274980987514446e-16,
+      "min": 1.4810974070768892e-16,
+      "n": 6
+    },
+    "gravity": {
+      "max": 3.0147968021204653e-16,
+      "median": 7.880760017082073e-18,
+      "min": 6.307106921889331e-18,
+      "n": 6
+    },
+    "local_update_s": {
+      "max": 4.556477999358322e-05,
+      "median": 4.325984001297911e-05,
+      "min": 4.1889900003297953e-05,
+      "n": 6
+    },
+    "payload_kg": 3.0,
+    "rank": 6,
+    "refactor_s": {
+      "max": 6.456633998823236e-05,
+      "median": 4.165176000242354e-05,
+      "min": 3.975560000981204e-05,
+      "n": 6
+    },
+    "woodbury": {
+      "max": 5.255348744080571e-15,
+      "median": 1.2552055775807734e-15,
+      "min": 5.470169453642546e-16,
+      "n": 6
+    },
+    "woodbury_s": {
+      "max": 0.00010706910001317737,
+      "median": 8.891137999853527e-05,
+      "min": 8.581820000472362e-05,
+      "n": 6
+    }
+  },
+  "seed": 5,
+  "states": 6
+}

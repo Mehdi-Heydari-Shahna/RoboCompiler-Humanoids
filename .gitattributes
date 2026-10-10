@@ -1,0 +1,4 @@
+# The code checks SHA-256 hashes of its sources and records (ipd/provenance.py,
+# verify_evidence.py, tests). Turn off end-of-line conversion
+# for every file, so that each platform checks out exactly the committed bytes.
+* -text

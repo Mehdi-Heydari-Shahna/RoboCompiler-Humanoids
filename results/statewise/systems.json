@@ -1,0 +1,351 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T07:36:30Z"
+  },
+  "cases": {
+    "circle": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 55,
+      "closure_rows": 330,
+      "frames": 305,
+      "independent_speeds": 60,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 15,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "circle_actuator": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 55,
+      "closure_rows": 330,
+      "frames": 305,
+      "independent_speeds": 60,
+      "internal_loops": 40,
+      "largest_module": 21,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 15,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/actuator space",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "circle_single": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 50,
+      "closure_rows": 300,
+      "frames": 305,
+      "independent_speeds": 90,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 10,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/left stance",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "dancer_double": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 10,
+      "closure_rows": 60,
+      "frames": 58,
+      "independent_speeds": 15,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 2,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/both",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "dancer_floating": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 8,
+      "closure_rows": 48,
+      "frames": 58,
+      "independent_speeds": 27,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 0,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/none",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "dancer_single": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 9,
+      "closure_rows": 54,
+      "frames": 58,
+      "independent_speeds": 21,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 1,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/left",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "line": {
+      "actuators": 105,
+      "augmented_coordinates": 327,
+      "bodies": 210,
+      "chords": 54,
+      "closure_rows": 324,
+      "frames": 302,
+      "independent_speeds": 63,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 14,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "line/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "manipulator": {
+      "actuators": 3,
+      "augmented_coordinates": 6,
+      "bodies": 6,
+      "chords": 1,
+      "closure_rows": 6,
+      "frames": 7,
+      "independent_speeds": 3,
+      "internal_loops": 1,
+      "largest_module": 3,
+      "level1_speeds": [
+        3
+      ],
+      "level2_chords": 0,
+      "mass_kg": 152.5,
+      "members": 1,
+      "name": "manipulator/actuator_space",
+      "record_bodies": 5,
+      "record_joints": 6,
+      "tree_speeds": 5
+    },
+    "manipulator_joint": {
+      "actuators": 3,
+      "augmented_coordinates": 6,
+      "bodies": 6,
+      "chords": 1,
+      "closure_rows": 6,
+      "frames": 7,
+      "independent_speeds": 3,
+      "internal_loops": 1,
+      "largest_module": 3,
+      "level1_speeds": [
+        3
+      ],
+      "level2_chords": 0,
+      "mass_kg": 152.5,
+      "members": 1,
+      "name": "manipulator/joint_space",
+      "record_bodies": 5,
+      "record_joints": 6,
+      "tree_speeds": 5
+    },
+    "semicircle": {
+      "actuators": 105,
+      "augmented_coordinates": 327,
+      "bodies": 210,
+      "chords": 54,
+      "closure_rows": 324,
+      "frames": 302,
+      "independent_speeds": 63,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 14,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "semicircle/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    }
+  },
+  "humanoid_drives": {
+    "ankle_stroke": {
+      "coulomb": 75.0,
+      "damping": 30.0,
+      "kind": "linear",
+      "lead": 0.004,
+      "no_load": 0.35,
+      "peak": 2500.0,
+      "reflected_inertia": 24.674011002723397,
+      "rotor": 1e-05
+    },
+    "elbow_stroke": {
+      "coulomb": 45.0,
+      "damping": 20.0,
+      "kind": "linear",
+      "lead": 0.004,
+      "no_load": 0.4,
+      "peak": 1500.0,
+      "reflected_inertia": 19.739208802178712,
+      "rotor": 8e-06
+    },
+    "hip_pitch": {
+      "coulomb": 6.6,
+      "damping": 0.5,
+      "kind": "rotary",
+      "no_load": 15.0,
+      "peak": 220.0,
+      "ratio": 25.0,
+      "reflected_inertia": 0.075,
+      "rotor": 0.00012
+    },
+    "hip_roll": {
+      "coulomb": 4.5,
+      "damping": 0.5,
+      "kind": "rotary",
+      "no_load": 15.0,
+      "peak": 150.0,
+      "ratio": 25.0,
+      "reflected_inertia": 0.075,
+      "rotor": 0.00012
+    },
+    "hip_yaw": {
+      "coulomb": 2.4,
+      "damping": 0.5,
+      "kind": "rotary",
+      "no_load": 16.0,
+      "peak": 80.0,
+      "ratio": 25.0,
+      "reflected_inertia": 0.0375,
+      "rotor": 6e-05
+    },
+    "knee_stroke": {
+      "coulomb": 135.0,
+      "damping": 40.0,
+      "kind": "linear",
+      "lead": 0.005,
+      "no_load": 0.4,
+      "peak": 4500.0,
+      "reflected_inertia": 31.58273408348595,
+      "rotor": 2e-05
+    },
+    "shoulder_pitch": {
+      "coulomb": 2.7,
+      "damping": 0.3,
+      "kind": "rotary",
+      "no_load": 18.0,
+      "peak": 90.0,
+      "ratio": 30.0,
+      "reflected_inertia": 0.054,
+      "rotor": 6e-05
+    },
+    "shoulder_roll": {
+      "coulomb": 2.7,
+      "damping": 0.3,
+      "kind": "rotary",
+      "no_load": 18.0,
+      "peak": 90.0,
+      "ratio": 30.0,
+      "reflected_inertia": 0.054,
+      "rotor": 6e-05
+    },
+    "shoulder_yaw": {
+      "coulomb": 1.8,
+      "damping": 0.3,
+      "kind": "rotary",
+      "no_load": 18.0,
+      "peak": 60.0,
+      "ratio": 30.0,
+      "reflected_inertia": 0.036000000000000004,
+      "rotor": 4e-05
+    },
+    "waist_yaw": {
+      "coulomb": 2.4,
+      "damping": 0.5,
+      "kind": "rotary",
+      "no_load": 16.0,
+      "peak": 80.0,
+      "ratio": 25.0,
+      "reflected_inertia": 0.0375,
+      "rotor": 6e-05
+    }
+  }
+}

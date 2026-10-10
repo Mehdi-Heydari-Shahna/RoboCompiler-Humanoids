@@ -1,0 +1,156 @@
+{
+  "metrics": {
+    "actuator_work_J": 3497.14151771143,
+    "allocate_ms": 1.5104227254640743,
+    "completed": true,
+    "contact_window_s": [
+      0.5,
+      29.990000000000002
+    ],
+    "e_peak": 0.07170684879261136,
+    "e_rms": 0.041674472778627215,
+    "effort_peak_fraction": 0.28651824299175876,
+    "effort_rms_fraction": 0.05290281403863489,
+    "effort_saturated_fraction": 0.0,
+    "evaluate_ms": 4.978835459132946,
+    "failure": "",
+    "generalized_force_defect_max": 3.357810252069271e-07,
+    "infeasible_fraction": 0.0,
+    "link_force_model_peak_error_N": 15.704460502630619,
+    "link_force_model_rms_error_N": 3.3380865834244298,
+    "link_force_peak_N": 45.435131512937936,
+    "link_force_rms_N": 8.4057775632184,
+    "link_gap_peak_um": 26.223449651380456,
+    "loaded_sole_N": 50.0,
+    "loop_gap_peak_um": 1.3656246051483467,
+    "max_cop_x_m": 0.0814343433976574,
+    "max_cop_y_m": 0.0495528613946377,
+    "max_friction_ratio": 0.4239107869150457,
+    "max_slack": 3.8782588661788174e-07,
+    "max_slack_logged": 3.3578102812806024e-07,
+    "max_tilt_deg": 7.844377310567415,
+    "min_fz_N": 54.7592870044197,
+    "palm_rms_mm": 7.427136283353184,
+    "pelvis_final_mm": 0.8459718873854243,
+    "pelvis_peak_mm": 1.3636127328951428,
+    "pelvis_rms_mm": 0.7268514157268552,
+    "pelvis_rot_peak_deg": 0.36863863670917246,
+    "pelvis_rot_rms_deg": 0.12661919656262594,
+    "qp_failed_steps": 0,
+    "qp_fraction": 0.2733333333333333,
+    "qp_not_solved": 0,
+    "qp_status": {
+      "closed_form": 11010,
+      "solved": 3990
+    },
+    "simulated_s": 29.990000000000002,
+    "sole_error_final_mm": 0.3467927446930518,
+    "sole_error_horizontal_peak_mm": 0.333909135487066,
+    "sole_error_peak_mm": 0.3508284162448474,
+    "sole_error_vertical_peak_mm": 0.16658671019234572,
+    "support_force_model_peak_error_N": 142.0969401839542,
+    "support_force_model_rms_error_N": 30.016260842195393,
+    "support_gap_peak_um": null,
+    "wall_s": 191.1273250579834,
+    "window_s": [
+      0.0,
+      29.990000000000002
+    ]
+  },
+  "provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T08:35:24Z"
+  },
+  "settings": {
+    "control_dt": 0.002,
+    "formation": "circle",
+    "friction_feedforward": 0.85,
+    "gains": {
+      "ks": 45.0,
+      "lam": 15.0
+    },
+    "payload": {
+      "body": "r_forearm",
+      "dancer": 2,
+      "mass_kg": 2.0,
+      "site": "right_palm",
+      "time": 1.0
+    },
+    "plant": "mujoco",
+    "plant_info": {
+      "actuator": {
+        "corner": 0.5,
+        "lag_s": 0.002
+      },
+      "constraints": "soft equalities, unilateral frictional contact",
+      "engine": "MuJoCo",
+      "floor_contact": {
+        "condim": 4,
+        "rolling": 0.0001,
+        "solimp": [
+          0.9,
+          0.95,
+          0.001,
+          0.5,
+          2.0
+        ],
+        "solref": [
+          0.005,
+          1.0
+        ],
+        "torsional": 0.01
+      },
+      "floor_friction": 0.8,
+      "joint_coulomb_friction": true,
+      "loop_solref_s": 0.004,
+      "noise": {
+        "joint_m": 5e-06,
+        "joint_rad": 0.0001,
+        "joint_rate_m_s": 0.001,
+        "joint_rate_rad_s": 0.01,
+        "root_m": 0.00025,
+        "root_rad": 0.00025,
+        "root_rate_m_s": 0.005,
+        "root_rate_rad_s": 0.005
+      },
+      "noise_seed": 20261008,
+      "physics_step_s": 0.001
+    },
+    "plant_settings": {
+      "seed": 20261008,
+      "timestep": 0.001
+    },
+    "policy": "stale",
+    "reference": {
+      "formation": "circle",
+      "ik_error": 3.9086834726250915e-10,
+      "iterations": 3,
+      "limit_margin": 0.016978679554069356,
+      "min_arm_rcond": 0.1291740154655982,
+      "mode": "circle:bbbbb",
+      "partition_switches": 0,
+      "residual": 9.983092000349958e-12,
+      "switch_times": []
+    },
+    "reference_source_hash": "bda8ad3659fd0ac3",
+    "scenario": "payload",
+    "support_cone": {
+      "friction_assumed": 0.8,
+      "margin": 0.75,
+      "min_normal_force_N": 15.0,
+      "pyramid_coefficient": 0.42426406871192857
+    }
+  },
+  "status": "ok"
+}

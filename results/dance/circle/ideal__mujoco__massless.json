@@ -1,0 +1,140 @@
+{
+  "metrics": {
+    "actuator_work_J": 216.2711579763934,
+    "allocate_ms": 1.1914461406678432,
+    "completed": true,
+    "contact_window_s": [
+      0.5,
+      29.990000000000002
+    ],
+    "e_peak": 0.032083618700796235,
+    "e_rms": 0.00787885769581209,
+    "effort_peak_fraction": 0.18083994518147414,
+    "effort_rms_fraction": 0.04042845470991692,
+    "effort_saturated_fraction": 0.0,
+    "evaluate_ms": 4.583048569802668,
+    "failure": "",
+    "generalized_force_defect_max": 1.2762122203469062e-07,
+    "infeasible_fraction": 0.0,
+    "link_force_model_peak_error_N": 2.0152986778200637,
+    "link_force_model_rms_error_N": 0.4355939579430687,
+    "link_force_peak_N": 30.11327822698811,
+    "link_force_rms_N": 6.033462956243993,
+    "link_gap_peak_um": 26.28130715292751,
+    "loaded_sole_N": 50.0,
+    "loop_gap_peak_um": 1.4202703808011747,
+    "max_cop_x_m": 0.06129258831799828,
+    "max_cop_y_m": 0.0392086770305445,
+    "max_friction_ratio": 0.33065910362480333,
+    "max_slack": 1.2823522741999108e-07,
+    "max_slack_logged": 1.276212206354227e-07,
+    "max_tilt_deg": 8.002545676805372,
+    "min_fz_N": 74.5386427525581,
+    "palm_rms_mm": 0.8224489976047891,
+    "pelvis_final_mm": 0.7460671928369227,
+    "pelvis_peak_mm": 2.952686040312056,
+    "pelvis_rms_mm": 0.9437746315142154,
+    "pelvis_rot_peak_deg": 0.058564933348274326,
+    "pelvis_rot_rms_deg": 0.01522800057629401,
+    "qp_failed_steps": 0,
+    "qp_fraction": 0.106,
+    "qp_not_solved": 0,
+    "qp_status": {
+      "closed_form": 13396,
+      "solved": 1604
+    },
+    "simulated_s": 29.990000000000002,
+    "sole_error_final_mm": 0.3748609451151788,
+    "sole_error_horizontal_peak_mm": 0.3627902956229965,
+    "sole_error_peak_mm": 0.3780453607203973,
+    "sole_error_vertical_peak_mm": 0.1621358987241306,
+    "support_force_model_peak_error_N": 49.00757049324142,
+    "support_force_model_rms_error_N": 18.777788514166456,
+    "support_gap_peak_um": null,
+    "wall_s": 150.83693623542786,
+    "window_s": [
+      0.0,
+      29.990000000000002
+    ]
+  },
+  "provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T08:20:43Z"
+  },
+  "settings": {
+    "control_dt": 0.002,
+    "formation": "circle",
+    "friction_feedforward": 0.0,
+    "gains": {
+      "ks": 45.0,
+      "lam": 15.0
+    },
+    "plant": "mujoco",
+    "plant_info": {
+      "actuator": null,
+      "constraints": "soft equalities, unilateral frictional contact",
+      "engine": "MuJoCo",
+      "floor_contact": {
+        "condim": 4,
+        "rolling": 0.0001,
+        "solimp": [
+          0.9,
+          0.95,
+          0.001,
+          0.5,
+          2.0
+        ],
+        "solref": [
+          0.005,
+          1.0
+        ],
+        "torsional": 0.01
+      },
+      "floor_friction": 0.8,
+      "joint_coulomb_friction": false,
+      "loop_solref_s": 0.004,
+      "noise": null,
+      "noise_seed": 20261008,
+      "physics_step_s": 0.001
+    },
+    "plant_settings": {
+      "actuator": false,
+      "coulomb": false,
+      "noise": false,
+      "seed": 20261008,
+      "timestep": 0.001
+    },
+    "policy": "massless",
+    "reference": {
+      "formation": "circle",
+      "ik_error": 3.9086834726250915e-10,
+      "iterations": 3,
+      "limit_margin": 0.016978679554069356,
+      "min_arm_rcond": 0.1291740154655982,
+      "mode": "circle:bbbbb",
+      "partition_switches": 0,
+      "residual": 9.983092000349958e-12,
+      "switch_times": []
+    },
+    "reference_source_hash": "bda8ad3659fd0ac3",
+    "scenario": "ideal",
+    "support_cone": {
+      "friction_assumed": 0.8,
+      "margin": 0.75,
+      "min_normal_force_N": 15.0,
+      "pyramid_coefficient": 0.42426406871192857
+    }
+  },
+  "status": "ok"
+}

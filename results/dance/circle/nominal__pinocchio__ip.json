@@ -1,0 +1,124 @@
+{
+  "metrics": {
+    "actuator_work_J": 214.1195757051671,
+    "allocate_ms": 1.3181826793354654,
+    "completed": true,
+    "contact_window_s": [
+      0.5,
+      29.990000000000002
+    ],
+    "e_peak": 0.00042542265031542126,
+    "e_rms": 0.00010182650772508647,
+    "effort_peak_fraction": 0.1802308846828424,
+    "effort_rms_fraction": 0.04030771451308056,
+    "effort_saturated_fraction": 0.0,
+    "evaluate_ms": 5.338742724734098,
+    "failure": "",
+    "generalized_force_defect_max": 1.2600771714943448e-07,
+    "infeasible_fraction": 0.0,
+    "link_force_model_peak_error_N": 0.06574508461304163,
+    "link_force_model_rms_error_N": 0.012827570238554123,
+    "link_force_peak_N": 29.790458740504764,
+    "link_force_rms_N": 5.935148272288407,
+    "link_gap_peak_um": 0.0007322635970234931,
+    "loaded_sole_N": 50.0,
+    "loop_gap_peak_um": 3.776737870941852e-05,
+    "max_cop_x_m": 0.062135531494662444,
+    "max_cop_y_m": 0.03978052890768037,
+    "max_friction_ratio": 0.3124637979302845,
+    "max_slack": 1.2830879040404824e-07,
+    "max_slack_logged": 1.2600771874820502e-07,
+    "max_tilt_deg": 8.021487622783996,
+    "min_fz_N": 77.99974635595436,
+    "palm_rms_mm": 0.019676894048640255,
+    "pelvis_final_mm": 1.5125765244642184e-06,
+    "pelvis_peak_mm": 0.04397717401706746,
+    "pelvis_rms_mm": 0.011155493011192818,
+    "pelvis_rot_peak_deg": 0.002933445683526767,
+    "pelvis_rot_rms_deg": 0.0006534123700831767,
+    "qp_failed_steps": 0,
+    "qp_fraction": 0.09166666666666666,
+    "qp_not_solved": 0,
+    "qp_status": {
+      "closed_form": 13626,
+      "solved": 1374
+    },
+    "simulated_s": 29.990000000000002,
+    "sole_error_final_mm": 3.7341307954279785e-13,
+    "sole_error_horizontal_peak_mm": 1.7703992415146384e-08,
+    "sole_error_peak_mm": 4.55487141062512e-08,
+    "sole_error_vertical_peak_mm": 4.453847013419221e-08,
+    "support_force_model_peak_error_N": 0.5741996267684044,
+    "support_force_model_rms_error_N": 0.1201151130850629,
+    "support_gap_peak_um": 4.76929803471795e-05,
+    "wall_s": 1126.425960302353,
+    "window_s": [
+      0.0,
+      29.990000000000002
+    ]
+  },
+  "provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T08:46:55Z"
+  },
+  "settings": {
+    "control_dt": 0.002,
+    "formation": "circle",
+    "friction_feedforward": 0.0,
+    "gains": {
+      "ks": 45.0,
+      "lam": 15.0
+    },
+    "plant": "pinocchio",
+    "plant_info": {
+      "baumgarte": [
+        400.0,
+        40.0
+      ],
+      "constraints": "rigid loops, hand links and sole welds",
+      "engine": "Pinocchio constraintDynamics",
+      "integrator": "rk4",
+      "proximal_iterations": 50,
+      "proximal_mu": 1e-08,
+      "step_s": "control period"
+    },
+    "plant_settings": {
+      "baumgarte": [
+        400.0,
+        40.0
+      ]
+    },
+    "policy": "ip",
+    "reference": {
+      "formation": "circle",
+      "ik_error": 3.9086834726250915e-10,
+      "iterations": 3,
+      "limit_margin": 0.016978679554069356,
+      "min_arm_rcond": 0.1291740154655982,
+      "mode": "circle:bbbbb",
+      "partition_switches": 0,
+      "residual": 9.983092000349958e-12,
+      "switch_times": []
+    },
+    "reference_source_hash": "bda8ad3659fd0ac3",
+    "scenario": "nominal",
+    "support_cone": {
+      "friction_assumed": 0.8,
+      "margin": 0.75,
+      "min_normal_force_N": 15.0,
+      "pyramid_coefficient": 0.42426406871192857
+    }
+  },
+  "status": "ok"
+}

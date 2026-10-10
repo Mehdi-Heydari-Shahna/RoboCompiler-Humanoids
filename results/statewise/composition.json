@@ -1,0 +1,85 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T09:07:25Z"
+  },
+  "member_reuse": {
+    "gamma1_difference": 1.0879377635414147e-14,
+    "gamma1_scale": 61.72000000000003,
+    "gravity1_difference_same_orientation": 1.1546319456101628e-14,
+    "member": 2
+  },
+  "modes": {
+    "no hand links": {
+      "build_s": 0.008639092000521487,
+      "cond_gamma": 3023.215053803704,
+      "evaluate_position_s": 0.0020779599999514176,
+      "independent_speeds": 75,
+      "level2_chords": 10,
+      "level2_rows": 60,
+      "prepare_s": 0.012358394000330009,
+      "two_level_vs_one_level": 4.731303167015125e-16
+    },
+    "ring opened at one link": {
+      "build_s": 0.004050626000207558,
+      "cond_gamma": 3035.5372899904783,
+      "evaluate_position_s": 0.006536312999742222,
+      "independent_speeds": 63,
+      "level2_chords": 14,
+      "level2_rows": 84,
+      "prepare_s": 0.015411595999466954,
+      "two_level_vs_one_level": 4.68644270475626e-16
+    },
+    "ring, alternating feet": {
+      "build_s": 0.003752640999664436,
+      "cond_gamma": 2507.229597491407,
+      "evaluate_position_s": 0.002298072000485263,
+      "independent_speeds": 84,
+      "level2_chords": 11,
+      "level2_rows": 66,
+      "prepare_s": 0.014158842000142613,
+      "two_level_vs_one_level": 5.271323051495607e-16
+    },
+    "ring, double support": {
+      "build_s": 0.004380950999802735,
+      "cond_gamma": 2602.04604664096,
+      "evaluate_position_s": 0.0026209930001641624,
+      "independent_speeds": 60,
+      "level2_chords": 15,
+      "level2_rows": 90,
+      "prepare_s": 0.01512322199960181,
+      "two_level_vs_one_level": 4.696106986195528e-16
+    },
+    "ring, left feet only": {
+      "build_s": 0.0062547520001317025,
+      "cond_gamma": 2059.3460295450914,
+      "evaluate_position_s": 0.002754780000032042,
+      "independent_speeds": 90,
+      "level2_chords": 10,
+      "level2_rows": 60,
+      "prepare_s": 0.01664334399993095,
+      "two_level_vs_one_level": 5.340941088448964e-16
+    },
+    "unsupported, no links": {
+      "build_s": 0.0024563730003137607,
+      "cond_gamma": 1875.8492359122044,
+      "evaluate_position_s": 0.002085778000036953,
+      "independent_speeds": 135,
+      "level2_chords": 0,
+      "level2_rows": 0,
+      "prepare_s": 0.009245107999959146,
+      "two_level_vs_one_level": 5.799598661983528e-16
+    }
+  }
+}

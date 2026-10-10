@@ -1,0 +1,657 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T07:48:51Z"
+  },
+  "circle": {
+    "case": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 55,
+      "closure_rows": 330,
+      "frames": 305,
+      "independent_speeds": 60,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 15,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "gamma_min_eig": {
+      "max": 0.0470605633822849,
+      "median": 0.04687198917271009,
+      "min": 0.046594326182738344,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 2.2268308617381984e-16,
+      "median": 1.278195991883589e-16,
+      "min": 8.873141683880221e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 1.6173116034665754e-09,
+      "median": 1.4890832076313291e-10,
+      "min": 6.436285470163128e-12,
+      "n": 6
+    },
+    "regressor": {
+      "max": 8.226542740212655e-16,
+      "median": 6.5984994050921955e-16,
+      "min": 3.1749623967847343e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 2.522686212277044e-10,
+      "median": 8.86222387844927e-11,
+      "min": 2.2523187432259593e-11,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 2.387228125810537e-09,
+      "median": 8.473124182257886e-10,
+      "min": 3.0652187684638885e-10,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 1.9893944263458252
+  },
+  "circle_actuator": {
+    "case": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 55,
+      "closure_rows": 330,
+      "frames": 305,
+      "independent_speeds": 60,
+      "internal_loops": 40,
+      "largest_module": 21,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 15,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/actuator space",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "gamma_min_eig": {
+      "max": 0.05353937424823474,
+      "median": 0.04848478047315951,
+      "min": 0.04260774720055907,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 4.334888097306041e-17,
+      "median": 1.4223773755353923e-17,
+      "min": 3.937548916044022e-18,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 1.1862205648152122e-08,
+      "median": 1.1934503945997305e-09,
+      "min": 5.013221827145097e-10,
+      "n": 6
+    },
+    "regressor": {
+      "max": 2.215577815105376e-15,
+      "median": 1.331915737730453e-15,
+      "min": 2.9910659693429627e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 6.142304145647598e-08,
+      "median": 3.174896683787759e-08,
+      "min": 1.1179797346330195e-09,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 3.9316023679302456e-07,
+      "median": 1.1564849062980617e-07,
+      "min": 3.1893956515481587e-09,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 1.912015438079834
+  },
+  "circle_single": {
+    "case": {
+      "actuators": 105,
+      "augmented_coordinates": 330,
+      "bodies": 210,
+      "chords": 50,
+      "closure_rows": 300,
+      "frames": 305,
+      "independent_speeds": 90,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 10,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "circle/left stance",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "gamma_min_eig": {
+      "max": 0.046944038924975034,
+      "median": 0.046584268361363854,
+      "min": 0.04623829589817307,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 1.811159379110878e-16,
+      "median": 1.2149456556159988e-16,
+      "min": 5.841919736512664e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 1.2168061429356392e-09,
+      "median": 2.5907842346036786e-10,
+      "min": 4.0097780930720083e-11,
+      "n": 6
+    },
+    "regressor": {
+      "max": 1.0613590335663987e-15,
+      "median": 6.249165302842625e-16,
+      "min": 3.5973559261620336e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 2.8670947354457103e-10,
+      "median": 5.961994010531105e-11,
+      "min": 3.40086728331267e-11,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 1.5387194250694158e-09,
+      "median": 4.1947062728054506e-10,
+      "min": 2.1604519264048063e-10,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 2.1485936641693115
+  },
+  "dancer_double": {
+    "case": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 10,
+      "closure_rows": 60,
+      "frames": 58,
+      "independent_speeds": 15,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 2,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/both",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "gamma_min_eig": {
+      "max": 0.0453913783360433,
+      "median": 0.04504406794221367,
+      "min": 0.044809930483374845,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 1.0917967354743854e-16,
+      "median": 7.473579408648675e-17,
+      "min": 5.009823263268406e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 2.236471894163299e-09,
+      "median": 1.0498980377049972e-10,
+      "min": 5.120408562739357e-11,
+      "n": 6
+    },
+    "regressor": {
+      "max": 1.3789398319928535e-15,
+      "median": 3.6225065448898636e-16,
+      "min": 4.049342831359792e-17,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 1.9393576667384472e-10,
+      "median": 3.6527761575931955e-11,
+      "min": 3.681950224127721e-12,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 1.6703769604220334e-09,
+      "median": 3.551149361660133e-10,
+      "min": 2.8426012342592694e-11,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 0.2514166831970215
+  },
+  "dancer_floating": {
+    "case": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 8,
+      "closure_rows": 48,
+      "frames": 58,
+      "independent_speeds": 27,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 0,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/none",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "gamma_min_eig": {
+      "max": 0.0451835860627032,
+      "median": 0.04508059909632337,
+      "min": 0.04487700270485883,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 1.2951402750001822e-16,
+      "median": 7.914746125001115e-17,
+      "min": 2.878089500000405e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 1.1201547541737794e-10,
+      "median": 1.2898380482773422e-11,
+      "min": 3.579661722415352e-12,
+      "n": 6
+    },
+    "regressor": {
+      "max": 1.008528653705884e-15,
+      "median": 3.369461425462008e-16,
+      "min": 1.476149571279972e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 8.634269399404187e-12,
+      "median": 5.036655725597739e-12,
+      "min": 2.878091973358568e-12,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 5.180559833275498e-11,
+      "median": 2.8780894132000347e-11,
+      "min": 1.726854556859326e-11,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 0.32060813903808594
+  },
+  "dancer_single": {
+    "case": {
+      "actuators": 21,
+      "augmented_coordinates": 63,
+      "bodies": 42,
+      "chords": 9,
+      "closure_rows": 54,
+      "frames": 58,
+      "independent_speeds": 21,
+      "internal_loops": 8,
+      "largest_module": 6,
+      "level1_speeds": [
+        27
+      ],
+      "level2_chords": 1,
+      "mass_kg": 61.72,
+      "members": 1,
+      "name": "dancer/left",
+      "record_bodies": 42,
+      "record_joints": 49,
+      "tree_speeds": 47
+    },
+    "gamma_min_eig": {
+      "max": 0.04531907531118714,
+      "median": 0.04499192110741506,
+      "min": 0.044845040592774166,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 9.808139567590413e-17,
+      "median": 6.270594415117598e-17,
+      "min": 3.693696636723659e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 1.040088767573922e-09,
+      "median": 2.0077803334367915e-11,
+      "min": 6.541550619458995e-13,
+      "n": 6
+    },
+    "regressor": {
+      "max": 1.78439987239339e-15,
+      "median": 4.3407013573071135e-16,
+      "min": 1.645629939452008e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 1.5658876002920132e-10,
+      "median": 3.051497143066285e-11,
+      "min": 4.056749183481416e-12,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 7.387450684046472e-10,
+      "median": 1.5543672310990639e-10,
+      "min": 2.3513789725278657e-11,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 0.28319501876831055
+  },
+  "line": {
+    "case": {
+      "actuators": 105,
+      "augmented_coordinates": 327,
+      "bodies": 210,
+      "chords": 54,
+      "closure_rows": 324,
+      "frames": 302,
+      "independent_speeds": 63,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 14,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "line/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "gamma_min_eig": {
+      "max": 0.04071589843955841,
+      "median": 0.040547685848899395,
+      "min": 0.040111485424069816,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 1.5507536010230224e-16,
+      "median": 1.1045452065720604e-16,
+      "min": 8.536791360739664e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 5.834986949589643e-09,
+      "median": 7.061021540024354e-10,
+      "min": 1.667211607093117e-10,
+      "n": 6
+    },
+    "regressor": {
+      "max": 2.632667010854308e-15,
+      "median": 9.702340979321025e-16,
+      "min": 4.2948749051170243e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 6.754395330796886e-11,
+      "median": 4.311595020079219e-11,
+      "min": 2.2341118101374267e-11,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 1.435323659223409e-09,
+      "median": 3.625154909458499e-10,
+      "min": 1.6774958645687855e-10,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 1.7242398262023926
+  },
+  "manipulator": {
+    "case": {
+      "actuators": 3,
+      "augmented_coordinates": 6,
+      "bodies": 6,
+      "chords": 1,
+      "closure_rows": 6,
+      "frames": 7,
+      "independent_speeds": 3,
+      "internal_loops": 1,
+      "largest_module": 3,
+      "level1_speeds": [
+        3
+      ],
+      "level2_chords": 0,
+      "mass_kg": 152.5,
+      "members": 1,
+      "name": "manipulator/actuator_space",
+      "record_bodies": 5,
+      "record_joints": 6,
+      "tree_speeds": 5
+    },
+    "gamma_min_eig": {
+      "max": 292.72426486651824,
+      "median": 239.11492910931793,
+      "min": 181.19888269295376,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 6.312019660341375e-17,
+      "median": 3.834838653057645e-17,
+      "min": 5.000389667534883e-19,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 3.439607005475156e-11,
+      "median": 1.7476870008498848e-11,
+      "min": 4.901321451907552e-14,
+      "n": 6
+    },
+    "regressor": {
+      "max": 3.4915745354146536e-16,
+      "median": 2.3037616747070536e-16,
+      "min": 5.298110663315016e-17,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 1.5757830841649034e-10,
+      "median": 2.9542881277837235e-11,
+      "min": 9.412445487722815e-12,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 1.5704582643794395e-10,
+      "median": 3.611480273932223e-11,
+      "min": 8.769131355903383e-12,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 0.09214997291564941
+  },
+  "manipulator_joint": {
+    "case": {
+      "actuators": 3,
+      "augmented_coordinates": 6,
+      "bodies": 6,
+      "chords": 1,
+      "closure_rows": 6,
+      "frames": 7,
+      "independent_speeds": 3,
+      "internal_loops": 1,
+      "largest_module": 3,
+      "level1_speeds": [
+        3
+      ],
+      "level2_chords": 0,
+      "mass_kg": 152.5,
+      "members": 1,
+      "name": "manipulator/joint_space",
+      "record_bodies": 5,
+      "record_joints": 6,
+      "tree_speeds": 5
+    },
+    "gamma_min_eig": {
+      "max": 62.869306680262,
+      "median": 54.45489179403239,
+      "min": 48.298261228795184,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 5.633378469373925e-17,
+      "median": 2.9680310215251216e-18,
+      "min": 0.0,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 5.744454819671005e-11,
+      "median": 1.617637621415364e-11,
+      "min": 1.3712426385846156e-12,
+      "n": 6
+    },
+    "regressor": {
+      "max": 5.648392207124257e-16,
+      "median": 2.267636719500755e-16,
+      "min": 0.0,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 2.7640269830734046e-11,
+      "median": 1.439655623695585e-11,
+      "min": 7.697179320244787e-12,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 2.423972061126744e-11,
+      "median": 1.6465262228570348e-11,
+      "min": 8.223329788914734e-12,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 0.07685995101928711
+  },
+  "semicircle": {
+    "case": {
+      "actuators": 105,
+      "augmented_coordinates": 327,
+      "bodies": 210,
+      "chords": 54,
+      "closure_rows": 324,
+      "frames": 302,
+      "independent_speeds": 63,
+      "internal_loops": 40,
+      "largest_module": 6,
+      "level1_speeds": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "level2_chords": 14,
+      "mass_kg": 312.02663268,
+      "members": 5,
+      "name": "semicircle/both",
+      "record_bodies": 210,
+      "record_joints": 245,
+      "tree_speeds": 235
+    },
+    "gamma_min_eig": {
+      "max": 0.040681196917762286,
+      "median": 0.04051141929066573,
+      "min": 0.040075246803553136,
+      "n": 6
+    },
+    "gamma_sym": {
+      "max": 1.9114062876858065e-16,
+      "median": 1.0058818876163946e-16,
+      "min": 6.955913275628547e-17,
+      "n": 6
+    },
+    "potential_rate": {
+      "max": 2.423149139388879e-09,
+      "median": 1.4336136787836134e-09,
+      "min": 4.6465042492358467e-10,
+      "n": 6
+    },
+    "regressor": {
+      "max": 1.8744240545245104e-15,
+      "median": 6.745564014936925e-16,
+      "min": 3.560414369409635e-16,
+      "n": 6
+    },
+    "seed": 2027,
+    "skew_bodywise_fd": {
+      "max": 1.4885422841330965e-10,
+      "median": 5.960593167853134e-11,
+      "min": 4.7301432389994275e-11,
+      "n": 6
+    },
+    "skew_fd": {
+      "max": 1.110298240436397e-09,
+      "median": 6.294252375574697e-10,
+      "min": 3.352969310121142e-10,
+      "n": 6
+    },
+    "states": 6,
+    "wall_s": 1.6021909713745117
+  }
+}

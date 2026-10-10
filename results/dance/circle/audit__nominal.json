@@ -1,0 +1,52 @@
+{
+  "composed": {
+    "effort_peak": 0.1759162529011398,
+    "first_infeasible_s": null,
+    "infeasible_fraction": 0.0,
+    "max_cop_x_m": 0.06186747571451195,
+    "max_cop_y_m": 0.03975000000000004,
+    "max_friction_ratio": 0.28957307461402104,
+    "max_slack": 1.210182987325643e-07,
+    "min_fz_N": 80.90537214550542,
+    "qp_fraction": 0.08485856905158069,
+    "samples": 601
+  },
+  "per_dancer": {
+    "effort_peak": 0.22466749979056344,
+    "first_infeasible_s": 13.9,
+    "infeasible_fraction": 0.004991680532445923,
+    "max_cop_x_m": 0.08745000000000003,
+    "max_cop_y_m": 0.03975000000000003,
+    "max_friction_ratio": 0.3516384703943384,
+    "max_slack": 8.777371448832069,
+    "min_fz_N": 65.32937604101363,
+    "qp_fraction": 0.09317803660565724,
+    "samples": 601
+  },
+  "provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T07:38:24Z"
+  },
+  "reference": {
+    "formation": "circle",
+    "ik_error": 3.9086834726250915e-10,
+    "iterations": 3,
+    "limit_margin": 0.016978679554069356,
+    "min_arm_rcond": 0.1291740154655982,
+    "mode": "circle:bbbbb",
+    "partition_switches": 0,
+    "residual": 9.983092000349958e-12,
+    "switch_times": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "metrics": {
+    "actuator_work_J": 1928.8367611063688,
+    "allocate_ms": 0.0,
+    "completed": false,
+    "contact_window_s": [
+      0.5,
+      16.95
+    ],
+    "e_peak": null,
+    "e_rms": null,
+    "effort_peak_fraction": 0.310133454018485,
+    "effort_rms_fraction": 0.05720751192147131,
+    "effort_saturated_fraction": 0.0,
+    "evaluate_ms": 0.0,
+    "failure": "fell",
+    "generalized_force_defect_max": null,
+    "infeasible_fraction": 0.0,
+    "link_force_model_peak_error_N": null,
+    "link_force_model_rms_error_N": null,
+    "link_force_peak_N": 14.631738347022294,
+    "link_force_rms_N": 4.443469735200144,
+    "link_gap_peak_um": 12.579593599769883,
+    "loaded_sole_N": 50.0,
+    "loop_gap_peak_um": 1.7922920428881945,
+    "max_cop_x_m": 0.11661320154141115,
+    "max_cop_y_m": 0.05301374845338191,
+    "max_friction_ratio": 0.6342706276655103,
+    "max_slack": 0.0,
+    "max_slack_logged": 0.0,
+    "max_tilt_deg": 52.366600867314276,
+    "min_fz_N": 86.53291814740963,
+    "palm_rms_mm": 111.54161812880398,
+    "pelvis_final_mm": 743.3341123326637,
+    "pelvis_peak_mm": 743.3341123326637,
+    "pelvis_rms_mm": 83.02526495551909,
+    "pelvis_rot_peak_deg": 50.84089932924352,
+    "pelvis_rot_rms_deg": 5.920831304471884,
+    "qp_failed_steps": 0,
+    "qp_fraction": 0.0,
+    "qp_not_solved": 0,
+    "qp_status": {},
+    "simulated_s": 16.95,
+    "sole_error_final_mm": 97.05215973578748,
+    "sole_error_horizontal_peak_mm": 40.5261516297002,
+    "sole_error_peak_mm": 97.05215973578748,
+    "sole_error_vertical_peak_mm": 88.18589877904152,
+    "support_force_model_peak_error_N": null,
+    "support_force_model_rms_error_N": null,
+    "support_gap_peak_um": null,
+    "wall_s": 34.400503635406494,
+    "window_s": [
+      0.0,
+      16.95
+    ]
+  },
+  "provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T08:12:48Z"
+  },
+  "settings": {
+    "control_dt": 0.002,
+    "formation": "line",
+    "friction_feedforward": 0.85,
+    "gains": {
+      "ks": 45.0,
+      "lam": 15.0
+    },
+    "plant": "mujoco",
+    "plant_info": {
+      "actuator": {
+        "corner": 0.5,
+        "lag_s": 0.002
+      },
+      "constraints": "soft equalities, unilateral frictional contact",
+      "engine": "MuJoCo",
+      "floor_contact": {
+        "condim": 4,
+        "rolling": 0.0001,
+        "solimp": [
+          0.9,
+          0.95,
+          0.001,
+          0.5,
+          2.0
+        ],
+        "solref": [
+          0.005,
+          1.0
+        ],
+        "torsional": 0.01
+      },
+      "floor_friction": 0.8,
+      "joint_coulomb_friction": true,
+      "loop_solref_s": 0.004,
+      "noise": {
+        "joint_m": 5e-06,
+        "joint_rad": 0.0001,
+        "joint_rate_m_s": 0.001,
+        "joint_rate_rad_s": 0.01,
+        "root_m": 0.00025,
+        "root_rad": 0.00025,
+        "root_rate_m_s": 0.005,
+        "root_rate_rad_s": 0.005
+      },
+      "noise_seed": 20261008,
+      "physics_step_s": 0.001
+    },
+    "plant_settings": {
+      "seed": 20261008,
+      "timestep": 0.001
+    },
+    "policy": "actuator_pd",
+    "reference": {
+      "formation": "line",
+      "ik_error": 5.294023798289037e-10,
+      "iterations": 3,
+      "limit_margin": 0.02259658785991997,
+      "min_arm_rcond": 0.06795907951867593,
+      "mode": "line:bbbbb",
+      "partition_switches": 0,
+      "residual": 9.995689344001402e-12,
+      "switch_times": []
+    },
+    "reference_source_hash": "bda8ad3659fd0ac3",
+    "scenario": "nominal",
+    "support_cone": {
+      "friction_assumed": 0.8,
+      "margin": 0.75,
+      "min_normal_force_N": 15.0,
+      "pyramid_coefficient": 0.42426406871192857
+    }
+  },
+  "status": "ok"
+}

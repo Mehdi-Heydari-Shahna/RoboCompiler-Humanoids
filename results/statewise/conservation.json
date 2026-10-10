@@ -1,0 +1,97 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T07:49:05Z"
+  },
+  "dancer_double": {
+    "drift_J": [
+      1.781763216968102e-07,
+      1.213737732541631e-08
+    ],
+    "duration_s": 0.096,
+    "independent_speeds": 15,
+    "initial_speed_scale": 0.25,
+    "kinetic_energy_scale_J": 1.4725874330511328,
+    "ratio": 14.67996890264749,
+    "relative_drift": [
+      1.2099541100091905e-07,
+      8.242210684045065e-09
+    ],
+    "round_off_floor_J": 5.857455066242624e-11,
+    "steps": [
+      0.008,
+      0.004
+    ]
+  },
+  "dancer_floating": {
+    "drift_J": [
+      6.691550424875459e-08,
+      4.1728185351530556e-09
+    ],
+    "duration_s": 0.256,
+    "independent_speeds": 27,
+    "initial_speed_scale": 1.0,
+    "kinetic_energy_scale_J": 294.23727968773557,
+    "ratio": 16.036044626680653,
+    "relative_drift": [
+      2.2742021106152774e-10,
+      1.4181814550955715e-11
+    ],
+    "round_off_floor_J": 5.0879629666634693e-11,
+    "steps": [
+      0.002,
+      0.001
+    ]
+  },
+  "manipulator": {
+    "drift_J": [
+      9.066297934623435e-09,
+      5.738911568187177e-10
+    ],
+    "duration_s": 0.256,
+    "independent_speeds": 3,
+    "initial_speed_scale": 1.0,
+    "kinetic_energy_scale_J": 132.71426901016085,
+    "ratio": 15.797939778129953,
+    "relative_drift": [
+      6.831441714778464e-11,
+      4.324261144797974e-12
+    ],
+    "round_off_floor_J": 2.2426522121394643e-10,
+    "steps": [
+      0.008,
+      0.004
+    ]
+  },
+  "manipulator_joint": {
+    "drift_J": [
+      1.0087569535244256e-07,
+      6.368964022840373e-09
+    ],
+    "duration_s": 0.256,
+    "independent_speeds": 3,
+    "initial_speed_scale": 1.0,
+    "kinetic_energy_scale_J": 142.2673868125661,
+    "ratio": 15.838634822034201,
+    "relative_drift": [
+      7.090570622861296e-10,
+      4.4767561756614033e-11
+    ],
+    "round_off_floor_J": 2.26132825425954e-10,
+    "steps": [
+      0.008,
+      0.004
+    ]
+  }
+}

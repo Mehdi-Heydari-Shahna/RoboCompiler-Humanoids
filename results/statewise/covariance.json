@@ -1,0 +1,122 @@
+{
+  "_provenance": {
+    "code_sha256": "6a60dc94b704a885dbe0f2288e0dbdf805d30333f807549b9685312bec7a1508",
+    "versions": {
+      "blas_threads": "1",
+      "daqp": "0.10.3",
+      "mujoco": "3.15.0",
+      "numpy": "2.3.5",
+      "pinocchio": "3.8.0",
+      "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+      "python": "3.12.3",
+      "python_flint": "0.9.0",
+      "scipy": "1.17.0"
+    },
+    "written_utc": "2026-10-10T07:48:55Z"
+  },
+  "acceleration_difference": {
+    "max": 2.1566402300862542e-13,
+    "median": 1.9064617935706913e-14,
+    "min": 4.936512974920671e-15,
+    "n": 6
+  },
+  "case": {
+    "actuators": 105,
+    "augmented_coordinates": 330,
+    "bodies": 210,
+    "chords": 55,
+    "closure_rows": 330,
+    "frames": 305,
+    "independent_speeds": 60,
+    "internal_loops": 40,
+    "largest_module": 6,
+    "level1_speeds": [
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "level2_chords": 15,
+    "mass_kg": 312.02663268,
+    "members": 5,
+    "name": "circle/both",
+    "record_bodies": 210,
+    "record_joints": 245,
+    "tree_speeds": 235
+  },
+  "change_of_speeds_condition": {
+    "max": 873.1602049244666,
+    "median": 339.1183639592275,
+    "min": 214.90302318502108,
+    "n": 6
+  },
+  "congruence_defect": {
+    "max": 4.218230623825097e-16,
+    "median": 3.1906192747966593e-16,
+    "min": 1.9525688363951883e-16,
+    "n": 6
+  },
+  "kinetic_energy_difference": {
+    "max": 3.6493842439050946e-16,
+    "median": 2.1479195810974528e-16,
+    "min": 0.0,
+    "n": 6
+  },
+  "partitions": {
+    "first": {
+      "hand_0_4": [
+        0,
+        2,
+        3
+      ],
+      "hand_1_0": [
+        0,
+        1,
+        3
+      ],
+      "hand_2_1": [
+        0,
+        1,
+        3
+      ],
+      "hand_3_2": [
+        0,
+        1,
+        3
+      ],
+      "hand_4_3": [
+        0,
+        1,
+        3
+      ]
+    },
+    "second": {
+      "hand_0_4": [
+        1,
+        2,
+        3
+      ],
+      "hand_1_0": [
+        0,
+        2,
+        3
+      ],
+      "hand_2_1": [
+        0,
+        2,
+        3
+      ],
+      "hand_3_2": [
+        0,
+        2,
+        3
+      ],
+      "hand_4_3": [
+        0,
+        2,
+        3
+      ]
+    }
+  }
+}
