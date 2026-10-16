@@ -4,6 +4,8 @@
 
 Mehdi Heydari Shahna · Jouni Mattila
 
+Preprint: [arXiv:2610.14237](https://arxiv.org/abs/2610.14237)
+
 This repository extends [RoboCompiler](https://github.com/Mehdi-Heydari-Shahna/RoboCompiler) to physically connected humanoids. Member-wise dynamics are compiled from physical records (rigid bodies, moving actuator parts, and reflected rotor inertias) with analytic constraint curvature, and a two-level composition keeps each robot's model reusable while ground supports and hand connections change. Five hand-linked closed-chain humanoids are simulated in ring, semicircle, and line formations.
 
 The repository contains the code, the result files of the reported runs, the manuscript, and the videos.
@@ -74,7 +76,7 @@ The humanoid is a synthetic closed-chain design (42 bodies, 49 joints, 21 actuat
 
 Please cite the accompanying manuscript when using this work:
 
-Mehdi Heydari Shahna and Jouni Mattila. **Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension.** 2026. [Manuscript](paper/robocompiler_humanoids.pdf).
+Mehdi Heydari Shahna and Jouni Mattila. **Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension.** arXiv:2610.14237, 2026. https://arxiv.org/abs/2610.14237. [Manuscript](paper/robocompiler_humanoids.pdf).
 
 This work builds on RoboCompiler: Mehdi Heydari Shahna, Joongheon Kim, and Jouni Mattila. **RoboCompiler: Graph-Native Compilation of Closed-Chain Robots for Consistent Modeling, Control, and Simulation.** 2026. https://doi.org/10.48550/arXiv.2609.35717
 
